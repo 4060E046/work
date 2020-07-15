@@ -26,7 +26,7 @@ test2.html
 </html>
 ```
 test02.php
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>

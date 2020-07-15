@@ -18,7 +18,7 @@ test1.html
 ```
 
 test01.php
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>

@@ -7,7 +7,7 @@ test3.html
 	<meta charset="utf-8">
 </head>
 <body style="text-align: center;">
-		<form method="post" autocomplete="off" action="as.php">
+		<form method="post" autocomplete="off" action="test03.php">
 			會員帳號<input type="text" name="uname"><br>
 			密碼<input type="password" name="pwd">
 			<input type="submit" value="登入">

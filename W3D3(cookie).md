@@ -1,4 +1,4 @@
-setcookie()函式執行之前,若有echo()或HTML標籤等輸出,會導致setcookie()函式執行錯誤
+## setcookie()函式執行之前,若有echo()或HTML標籤等輸出,會導致setcookie()函式執行錯誤
 ```html
 <?php
 		if(isset($_post['color']))

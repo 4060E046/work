@@ -41,4 +41,11 @@ $result = mysqli_query("SELECT * FROM books")
 mysqli_fetch_array(result)
 
 result：查詢結果物件
+-------------------
+第一次執行讀取第一筆
+第二次執行讀取第二筆
+以此類推
+讀完最後一筆後,再執行mysqli_fetch_array()便會回傳FALSE
+mysqli_fetch_array()會以陣列形式傳回讀取到紀錄
+-------------------
 ```

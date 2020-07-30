@@ -34,3 +34,11 @@ $result = mysqli_query("SELECT * FROM books")
 
 若成功查詢到資料，將回傳查詢結果物件並將其儲存在$result變數
 便可透過$result變數來讀取查詢結果
+```
+
+### 使用mysqli_fetch_array()讀取查詢結果
+```
+mysqli_fetch_array(result)
+
+result：查詢結果物件
+```

@@ -97,3 +97,4 @@ It's cool	It\'s cool
 \n		\\n
 "WOW"		\"WOW\"
 ```
+### 上例中 ' OR ''=' 過濾後會變成 \' OR \'\'=\'

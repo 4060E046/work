@@ -90,8 +90,10 @@ mysqli_real_escape_string(連線物件, 要過濾的字串)
 
 ### mysqli_real_escape_string()會過濾字串中的特殊字元
 ### 將其加上反斜線，再傳回來
+```
 原始字串		過濾後字串
    
 It's cool	It\'s cool
 \n			\\n
 "WOW"		\"WOW\"
+```

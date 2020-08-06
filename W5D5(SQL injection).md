@@ -68,6 +68,7 @@ SELECT * FROM account
 			AND passward='XXX ' OR ' 1 '=' 1'
 ```
 |語法	|意義|
+|:-:|:-:|
 |'		|是將 name 的 input 方塊內容關閉|
 |OR		|是指或是的條件|
 |1=1	|恆正|

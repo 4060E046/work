@@ -60,7 +60,7 @@ AND passward='happy'
 ##### 惡意填寫的SQL語句
 ##### passward='XXX ' = FALSE
 ##### ' 1 '=' 1' = TRUE
-#### (TRUE) AND (FALSE AND TRUE) = TRUE
+#### (TRUE) AND (FALSE OR TRUE) = TRUE
 ```diff
 SELECT * FROM account 
 - FALSE

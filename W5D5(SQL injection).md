@@ -100,3 +100,10 @@ It's cool	It\'s cool
 ```
 \' OR \'\'=\'
 ```
+#### 因為加上了反斜線，特殊字元失去原本功能，上方程式如下更改
+```
+$user = mysqli_real_escape_string($conn, $_POST['user']);
+$pass = mysqli_real_escape_string($conn, $_POST['pass']);
+$sql = "SELECT * FROM account WHERE username='$user'
+							  	AND	passward='$pass'";
+```

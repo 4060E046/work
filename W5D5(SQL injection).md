@@ -104,6 +104,6 @@ It's cool	It\'s cool
 ```
 $user = mysqli_real_escape_string($conn, $_POST['user']);
 $pass = mysqli_real_escape_string($conn, $_POST['pass']);
-$sql = "SELECT * FROM account WHERE username='$user'
-							  	AND	passward='$pass'";
+$sql = "SELECT * FROM account WHERE username='$user' 
+				AND passward='$pass'";
 ```

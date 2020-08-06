@@ -52,20 +52,20 @@ https://reurl.cc/oLNeM3
 ##### (true) AND (true) = true
 ```diff
 SELECT * FROM account 
-			+ true
-			WHERE username='tony' 
-			+ true
-			AND passward='happy'
++ true
+WHERE username='tony' 
++ true
+AND passward='happy'
 ```
 ##### 惡意填寫的SQL語句
 ##### passward='XXX ' = FALSE
 ##### ' 1 '=' 1' = TRUE
 ```diff
 SELECT * FROM account 
-			+ true
-			WHERE username='tony' 
-			+ true
-			AND passward='XXX ' OR ' 1 '=' 1'
++ true
+WHERE username='tony' 
++ true
+AND passward='XXX ' OR ' 1 '=' 1'
 ```
 |語法	|意義|
 |:-:|:-:|

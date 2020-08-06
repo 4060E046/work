@@ -94,6 +94,6 @@ mysqli_real_escape_string(連線物件, 要過濾的字串)
 原始字串		過濾後字串
    
 It's cool	It\'s cool
-\n			\\n
+\n		\\n
 "WOW"		\"WOW\"
 ```

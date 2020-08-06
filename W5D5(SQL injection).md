@@ -49,22 +49,23 @@ else
 https://reurl.cc/oLNeM3
 ```
 ##### 正常SQL語句
-##### (true) AND (true) = true
+##### (TRUE) AND (TRUE) = TRUE
 ```diff
 SELECT * FROM account 
-+ true
++ TRUE
 WHERE username='tony' 
-+ true
++ TRUE
 AND passward='happy'
 ```
 ##### 惡意填寫的SQL語句
 ##### passward='XXX ' = FALSE
 ##### ' 1 '=' 1' = TRUE
+#### (TRUE) AND (FALSE AND TRUE) = TRUE
 ```diff
 SELECT * FROM account 
-+ true
+- FALSE
 WHERE username='tony' 
-+ true
++ TRUE
 AND passward='XXX ' OR ' 1 '=' 1'
 ```
 |語法	|意義|

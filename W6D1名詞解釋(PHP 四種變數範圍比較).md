@@ -1,5 +1,7 @@
 ## PHP 四種變數範圍比較
-
+```
+http://coyanlee.blogspot.com/2012/04/php-local-global-static-parameter-scope.html
+```
 ### 區域變數
 * 在 function 中宣告
 * 只能在宣告的 function 中使用 (local scope)

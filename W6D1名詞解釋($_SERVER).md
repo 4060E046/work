@@ -1,5 +1,4 @@
-## $_ SERVER
-### ($_ 與 SERVER之間沒空白!!!)
+## $_ SERVER ($_ 與 SERVER之間沒空白!!!)
 
 ***
 
@@ -10,7 +9,7 @@
 ### $_ SERVER['QUERY_STRING']：查詢的變數值
 
 #### 假設今天的實作的網址是：http://jhsiao.dscloud.me:8080/server2.php?id=1798
-##### server2.php
+#### server2.php
 ```
 <?php
     echo "HTTP_HOST：".$_SERVER['HTTP_HOST']."<hr />";

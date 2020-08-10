@@ -1,5 +1,7 @@
 ## $_ SERVER ($_ 與 SERVER之間沒空白!!!)
-
+```
+https://ithelp.ithome.com.tw/articles/10157282
+```
 ***
 
 ### $_ SERVER['HTTP_HOST']：當前請求的Host頭中的內容(與取得Server的Port)
